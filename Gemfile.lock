@@ -24,13 +24,6 @@ GIT
       capybara (~> 2.0, >= 2.0.2)
       json
 
-GIT
-  remote: git://github.com/tjohn/bootstrap-sass.git
-  revision: 4c010031d260165fa147fb03054e8d0bfcb68c85
-  specs:
-    bootstrap-sass (2.3.0.1)
-      sass (~> 3.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -227,7 +220,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass!
   capistrano
   capybara-webkit!
   coffee-rails (~> 4.0.0.beta1)
