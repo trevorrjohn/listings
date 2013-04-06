@@ -1,10 +1,38 @@
 html
   height: 100%
+  font-family: Helvetica
 
 body
+  position: relative
   height: 100%
   margin: 0
   padding: 0
+  font-size: 16px
+  line-height: 20px
 
 #map-canvas
   height: 100%
+
+
+.zip-search
+  background: transparentize(white, .5)
+  padding: 5px
+  border-radius: 5px
+  position: absolute
+  top: 20px
+  left: 100px
+  z-index: 99
+  font-size: 17px
+  line-height: 25px
+  input, button
+    font-size: 24px
+    line-height: 36px
+  &.center
+    width: 600px
+    left: 400px
+    top: 200px
+    margin: 0 auto
+    
+.input-large
+  width: 460px
+  padding: 5px
